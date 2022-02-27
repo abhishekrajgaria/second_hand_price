@@ -5,12 +5,10 @@ import com.secondhand.api.vehicledataservice.repository.VehicleRepository;
 import com.secondhand.api.vehicledataservice.service.VehicleService;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties.Pageable;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
-import lombok.extern.java.Log;
 import lombok.extern.slf4j.Slf4j;
 
 @Service

@@ -1,0 +1,4 @@
+###
+GET /api/v1/vehicles/vehiclesMetaData/1
+Host: localhost:9090
+Content-Type: application/json

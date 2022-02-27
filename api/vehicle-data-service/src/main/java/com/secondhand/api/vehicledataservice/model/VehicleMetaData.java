@@ -20,7 +20,7 @@ import lombok.Setter;
 @Builder
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonIgnoreProperties(ignoreUnknown = true)
-@Document
+@Document("vehicles")
 public class VehicleMetaData {
     @Id
     @JsonProperty("VehicleId")
